@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  text-align: center;
+  padding-top: 200px;
+}
+
+ul { 
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  color: #F8EFBA;
+  
+}
+
+
+h1 {
+  color: #f5f6fa;
+  font-size: 70px;  
+}
+
+.butn{
+  border: none;
+  background-color: transparent;
+
+}
+
+
+
+.clicked {
+    color: red;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.form,
+.greetings {
+  color:#fad390;
+  display: none;
+  font-size : 30px;
+}
+
+.showing {
+  display: block;
+}
+
+.weather {
+  color: #353b48; 
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
