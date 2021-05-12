@@ -1,1 +1,1 @@
-making a todo-list using javascript
+Vanilla JS Clone Coding By Nomad Coders
